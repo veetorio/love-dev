@@ -1,4 +1,5 @@
-export const IconBase = (props : {action : () => void}) => (
+'use client';
+export default function Icon (props : {action : () => void}) {
   <svg xmlns="http://www.w3.org/2000/svg" width={69} height={34} fill="none" className="" onClick={props.action}>
     <path
       fill="#fff"
@@ -32,6 +33,6 @@ export const IconBase = (props : {action : () => void}) => (
       </clipPath>
     </defs>
   </svg>
-)
+}
 
-export default IconBase
+
