@@ -1,4 +1,4 @@
-const Icon = (props : {action : () => void}) => (
+const IconBase = (props : {action : () => void}) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={69} height={34} fill="none" className="" onClick={props.action}>
     <path
       fill="#fff"
@@ -34,4 +34,7 @@ const Icon = (props : {action : () => void}) => (
   </svg>
 )
 
+const Icon = (props : { action : () => void}) => {
+  return <IconBase {...props} />
+}
 export default Icon
