@@ -34,4 +34,4 @@ export const IconBase = (props : {action : () => void}) => (
   </svg>
 )
 
-
+export default IconBase

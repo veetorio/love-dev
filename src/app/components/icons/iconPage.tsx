@@ -1,4 +1,4 @@
-import { IconBase } from "./icon"
+import IconBase  from "./icon"
 
 const Icon = (props : { action : () => void}) => {
   return <IconBase {...props} />
