@@ -70,7 +70,7 @@ export default function Home() {
             <Carta text="Oi de novo meu amor, eu queria falar um pouco sobre uma insegurança minha. eu tenho medo de não ser bom o suficiente pra você" />
             <Carta text="Oi meu amorzinho, se você chegou nessa carta, este site possui alguns segredinhos.então aconselho você a procurar easter aggs, uma dica pra você começar : 'sempre olhe de baixo das coisas'" />
             {
-                cntx?.state.featureA && <Carta text="olha como a diva é esperta `^´, bom, se chegou até aqui você é porque está no caminho, use isso : 'Eu te amo' só não esquece de mudar o sistema númerico para um bem conhecido na computação" />
+                cntx?.state.featureA && <Carta text="Olha como a diva é inteligente,bom se você chegou até aqui é porque está no caminho, use isso , 'eu te amo' converta em uma base comum na computação em que somente os computadores entedem" />
             }
           </section>
         </section>

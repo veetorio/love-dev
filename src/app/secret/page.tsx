@@ -127,7 +127,7 @@ export default function Secret() {
                     if("29/12/2025" === date100.toLocaleDateString("pt_BR") && ab2) {
                         setAb2(true)
                     }
-                }}>liberado em {somarData(5)} dias </button>
+                }}>liberado em 29/12/2025 dias </button>
                 {/* <ModalChallengeOne /> */}
                 <ModalTwo open={ab2} onOpenChange={() => {
                     setAb2(false)
