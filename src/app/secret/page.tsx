@@ -124,7 +124,7 @@ export default function Secret() {
             </div>
             <div className="flex  items-end justify-start gap-2  mt-3">
                 <button className={`px-4 py-2 ${"bg-gray-500"} rounded-2xl`} onClick={() => {
-                    if("29/12/2025" === date100.toLocaleDateString("pt_BR") && ab2) {
+                    if(ab2) {
                         setAb2(true)
                     }
                 }}>liberado em 29/12/2025 dias </button>
