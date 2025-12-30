@@ -111,7 +111,7 @@ export default function Secret() {
                         setSt(true)
                     }
                 }}>Novo desafio</button>
-                <Modal open={st} onOpenChange={() => {
+                <Modal open={false} onOpenChange={() => {
                     setSt(false)
                     if (context?.state.featureB === true) {
                         Swal.fire("Você liberou o seu primeiro presente,dica : Objeto cubico")
@@ -129,7 +129,7 @@ export default function Secret() {
                     }
                 }}>liberado em 29/12/2025 dias </button>
                 {/* <ModalChallengeOne /> */}
-                <ModalTwo open={ab2} onOpenChange={() => {
+                <ModalTwo open={true} onOpenChange={() => {
                     setAb2(false)
                 }} setInp={setEq} valueInp={eq}/>
                 <Padlock color="white" height={32} width={32} latchHeight={18} latchWidth={22} state={eq.replaceAll(" ","") === "x^2+y^3-1=x^2y^3" ? "open" : "closed"} />
