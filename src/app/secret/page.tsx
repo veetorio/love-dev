@@ -73,9 +73,9 @@ export function ModalTwo({ onOpenChange, open , valueInp , setInp}: { open: bool
 
 export default function Secret() {
     const context = useContext(AbleContext)
-    const [st, setSt] = useState(false)
-    const [ab, setAb] = useState(false)
-    const [ab2, setAb2] = useState(false)
+    const [st, setSt] = useState(true)
+    const [ab, setAb] = useState(true)
+    const [ab2, setAb2] = useState(true)
     const [senha, setSenha] = useState<string>('')
     const [eq, setEq] = useState<string>('')
     const [locks, setLock] = useState({
@@ -105,7 +105,7 @@ export default function Secret() {
                     <Padlock color="white" height={32} width={32} latchHeight={18} latchWidth={22} state={locks.lock1 === false ? "closed" : "open"} />
                 </div>
             </div>
-            <div className="flex  items-end justify-start gap-2  mt-3">
+            <div classNat-end justify-start gap-2  mt-3">
                 <button className={`px-4 py-2 ${ab ? "bg-blue-500" : "bg-gray-500"} rounded-2xl`} onClick={() => {
                     if (ab) {
                         setSt(true)
