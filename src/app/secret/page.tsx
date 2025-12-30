@@ -50,7 +50,7 @@ export function ModalTwo({ onOpenChange, open , valueInp , setInp}: { open: bool
           ">
                     <h1 className="font-bold text-2xl">Insira o codígo</h1>
                     <div className="mt-4">
-                        <MeuCanvas st={valueInp == "x^2+y^3-1=x^2y^3"}/>
+                        <MeuCanvas st={valueInp == "(x^2+y^2-1)^3=x^2y^3"}/>
                         <div className='mt-4'>
                             <h4>insira a formula</h4>
                             <Input value={valueInp} onChange={(e) => {
