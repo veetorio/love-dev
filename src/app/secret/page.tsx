@@ -132,7 +132,7 @@ export default function Secret() {
                 <ModalTwo open={true} onOpenChange={() => {
                     setAb2(false)
                 }} setInp={setEq} valueInp={eq}/>
-                <Padlock color="white" height={32} width={32} latchHeight={18} latchWidth={22} state={eq.replaceAll(" ","") === "x^2+y^3-1=x^2y^3" ? "open" : "closed"} />
+                <Padlock color="white" height={32} width={32} latchHeight={18} latchWidth={22} state={eq.replaceAll(" ","") === "(x^2+y^2-1)^3=x^2y^3" ? "open" : "closed"} />
             </div>
             <div className="flex  items-end justify-start gap-2  mt-3">
                 <button className={`px-4 py-2 ${"bg-gray-500"} rounded-2xl`}>liberado em {somarData(100 - date100.getDate())}</button>
